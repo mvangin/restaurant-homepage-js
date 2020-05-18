@@ -15,5 +15,9 @@
   "bugs": {
     "url": "https://github.com/mvangin/restaurant-homepage-js/issues"
   },
-  "homepage": "https://github.com/mvangin/restaurant-homepage-js#readme"
+  "homepage": "https://github.com/mvangin/restaurant-homepage-js#readme",
+  "devDependencies": {
+    "webpack": "^4.43.0",
+    "webpack-cli": "^3.3.11"
+  }
 }
