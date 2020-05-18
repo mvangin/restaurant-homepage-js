@@ -1,0 +1,25 @@
+body {
+    background: rgb(180, 178, 178);
+}
+
+.navbar {
+    background: rgb(80, 79, 79);
+    height: 100px;
+    width: 100%;
+}
+
+.contact {
+    text-align: center;
+    font-size: 20px;
+
+}
+
+.foodItem {
+    width: 300px;
+    background: white;
+    border: solid black 2px;
+    border-radius: 5px;
+    padding:20px;
+    text-align: center;
+    margin: 10px auto;
+}
