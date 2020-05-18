@@ -1,6 +1,5 @@
 const initialContent = () => {
 
-
     const bannerImg = document.createElement("img");
     bannerImg.src="images/restaurant-banner.jpg";
     bannerImg.style.width = "100%";

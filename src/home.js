@@ -1,4 +1,7 @@
 const home = () => {
+
+
+
     const element = document.createElement("h1");
     const mainContent = document.querySelector(".content")
 

@@ -1,4 +1,6 @@
 const menu = () => {
+
+
     const mainContent = document.querySelector(".content")
     const foodItem1 = document.createElement("div");
     const foodItem2 = document.createElement("div");
