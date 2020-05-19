@@ -1,4 +1,8 @@
+import clear from "./clear";
 import contact from "./contact";
+import home from "./home";
+import menu from "./menu";
+
 
 const navbar = () => {
 
@@ -10,17 +14,31 @@ const navbar = () => {
     navbar.appendChild(contactButton);
 
     contactButton.addEventListener("click", () => {
-    contact() });
+        clear();
+        contact()
+    });
 
     const menuButton = document.createElement("Button");
     menuButton.classList.add("navButton");
     menuButton.textContent = "Menu";
     navbar.appendChild(menuButton);
 
+    menuButton.addEventListener("click", () => {
+        clear();
+        menu()
+    });
+
+
     const homeButton = document.createElement("Button");
     homeButton.classList.add("navButton");
     homeButton.textContent = "Home";
     navbar.appendChild(homeButton);
+
+    homeButton.addEventListener("click", () => {
+        clear();
+        home()
+    });
+
 
 
 }
