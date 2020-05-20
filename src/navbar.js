@@ -5,17 +5,15 @@ import menu from "./menu";
 
 
 const navbar = () => {
-
-    const contactButton = document.createElement("Button");
     const navbar = document.querySelector(".navbar");
+    const homeButton = document.createElement("Button");
+    homeButton.classList.add("navButton");
+    homeButton.textContent = "Home";
+    navbar.appendChild(homeButton);
 
-    contactButton.classList.add("navButton");
-    contactButton.textContent = "Contact";
-    navbar.appendChild(contactButton);
-
-    contactButton.addEventListener("click", () => {
+    homeButton.addEventListener("click", () => {
         clear();
-        contact()
+        home();
     });
 
     const menuButton = document.createElement("Button");
@@ -25,20 +23,19 @@ const navbar = () => {
 
     menuButton.addEventListener("click", () => {
         clear();
-        menu()
+        menu();
     });
 
+    const contactButton = document.createElement("Button");
 
-    const homeButton = document.createElement("Button");
-    homeButton.classList.add("navButton");
-    homeButton.textContent = "Home";
-    navbar.appendChild(homeButton);
+    contactButton.classList.add("navButton");
+    contactButton.textContent = "Contact";
+    navbar.appendChild(contactButton);
 
-    homeButton.addEventListener("click", () => {
+    contactButton.addEventListener("click", () => {
         clear();
-        home()
+        contact();
     });
-
 
 
 }
