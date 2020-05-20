@@ -1,8 +1,6 @@
-import initialContent from "./initial-content";
-import navbar from "./navbar";
+import initialLoad from "./initial-load";
 
+initialLoad();
 
-initialContent();
-navbar();
 
 
