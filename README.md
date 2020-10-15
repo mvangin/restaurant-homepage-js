@@ -1,3 +1,3 @@
-# restaurant-homepage-js
+Dynamically rendered a simple restaurant webpage using only javascript. 
 
-site created using webpack and available at: https://mvangin.github.io/restaurant-homepage-js/
+This project also gave me the opportunity to practice using webpack! 
